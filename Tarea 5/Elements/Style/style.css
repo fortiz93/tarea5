@@ -2,13 +2,13 @@ body {
   margin: 0;
   font-family: Arial, sans-serif;
   background-color: #FAFAFA;
+
 }
 
 .dashboard_header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  min-height: 60px;
   padding: 15px 15px;
   background-color: blue;
 }
@@ -50,6 +50,7 @@ body {
   border-left: 2px solid black;
   padding-left: 10px;
   margin-left: 10px;
+  cursor: pointer;
 }
 
 
@@ -61,27 +62,27 @@ body {
   margin-left: 5px;
 }
 
-.posts-container {
+.posts {
   display: flex;
-  gap: 20px; /* espacio entre las cajas */
+  gap: 20px;
   padding: 20px 30px;
-  background-color: #f0f0f0; /* fondo para que resalten */
+  background-color: #f0f0f0;
 }
 
-.post-image-container {
+.imagen_post {
   background-color: white;
 
 }
 
 
-.posts-container .post-image-container:first-child {
+.posts .imagen_post:first-child {
   width: 25%; 
-  height: 150px;
+  height: 300px;
   flex-grow: 3;
 }
 
 
-.posts-container .post-image-container:last-child {
+.posts .imagen_post:last-child {
   width: 75%;  
   height: 800px;
   flex-grow: 1;
